@@ -84,4 +84,14 @@ Saa vastaukseksi satunnaisen hassun tekstin tai viisauden. Pari esimerkkiä:
 
 ![image](https://github.com/user-attachments/assets/2514a16b-11b7-4654-a8ed-f01bcd2b1301)
 
+## Lähteet
+
+- Karvinen Tero, 2006: Raportin Kirjoittaminen
+  - https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
+- Karvinen Tero, 2021: Install Debian on VirtualBox
+  - https://terokarvinen.com/2021/install-debian-on-virtualbox/
+- Free Software Foundation, 2024: What is Free Software?
+  - https://www.gnu.org/philosophy/free-sw.html
+- archlinux.org, 2024: Wiki, VirtualBox
+  - https://wiki.archlinux.org/title/VirtualBox
 
