@@ -53,6 +53,10 @@ __x)__
 
 __a)__
 
+Asensin micro editorin komennolla:
+
+    $ sudo apt install micro
+
 ![image](https://github.com/user-attachments/assets/bdca158a-7465-4a9d-8f48-c33a80203d0f)
 
 
