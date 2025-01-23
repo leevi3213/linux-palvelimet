@@ -64,6 +64,9 @@ __b)__
 
 Kolme itselleni uutta komentoriviohjelmaa olivat __tldr__, __ansiweather__ ja __fzf__. Tldr toimii samalla perjaattella kuin __man__ komento, mutta tiivistää tulosteen keskeimpiin ohjeisiin. Ansiweather näyttää säätiedotteen terminaalissa. Fzf eli "fuzzy finder" avaa etsittäväksi listan syötteestä.
 
+Ohjelmia löytyi kourallinen tästä artikkelista:
+- https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6
+
 Asensin ohjelmat seuraavalla komennolla:
 
     $ sudo apt install tldr ansiweather fzf
