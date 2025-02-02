@@ -67,3 +67,71 @@ Tulosteesta saa selville esim.
   - Lähetteen URL puttuu.
 - curl/7.88.1
   - Käyttäjäagentti, tässä tapauksessa komentorivityökalu "curl" jolla pyyntö on tehty. Toisilla riveillä esim. "Mozilla" (Firefox selain).
+
+__c) Etusivu uusiksi__
+
+Aloitin luomalla tiedoston hattu.example.com.conf hakemistoon /etc/apache2/sites-available/
+
+![image](https://github.com/user-attachments/assets/62d024cb-aff7-4a8e-b7d8-577c4aa382d9)
+
+Seuraavaksi poistin päällä olevan sivun
+
+![image](https://github.com/user-attachments/assets/a4408813-7503-45b2-ae1e-de577b07d31a)
+
+ja käynnistin uuden hattu.example.com sivun komennolla
+
+    $ sudo a2ensite hattu.example.com
+
+![image](https://github.com/user-attachments/assets/3508f70b-2a89-4c9b-a6fc-8dc00a260907)
+
+Seuraavaksi loin HTML sivun hakemistoon, jonka olin tarkentanut konfiguraatio tiedostossa
+
+![image](https://github.com/user-attachments/assets/cd785dfa-47b1-44cc-aa86-a91f9ab91bd5)
+
+Käynnistin Apachen uudelleen, ja sivu näkyy localhost etusivuna
+
+![image](https://github.com/user-attachments/assets/2f1c8987-2cf9-4d31-8ce9-9b77adfeef0b)
+
+__e) Validi HTML__
+
+Edellisen tehtävän HTML sivu on validi HTML5 sivu. Rakenne siis seuraava:
+
+```
+<!doctype html>
+<html>
+<head>
+        <title>Hattu Example</title>
+        <meta charset="utf-8"/>
+</head>
+<body>
+        <h1>HATTU sivun otsikko</h1>
+        <p>Lorem Impsum dolor sit amet</p>
+</body>
+</html>
+```
+
+__f) Curl__
+
+![image](https://github.com/user-attachments/assets/b4608720-7af7-491b-a092-df9f97a6843c)
+
+    $ curl -I
+
+Hakee vain otsakkeen palvelimelta. Otsake kertoo esimerkiksi
+- Onnistuiko pyyntö (200 OK)
+- Pyynnön päivä ja aika
+- Serveri jolle pyyntö on tehty (Apache)
+- Milloin tiedosto viimeksi päivitettiin
+- Tunniste (Etag)
+- Vastauksen sisältö ja tyyppi (182 tavua, teksti/html)
+
+Pelkkä curl pyytää sisällön.
+
+
+
+### Lähteet:
+- Karvinen Tero, 2018: Name Based Virtual Hosts on Apache
+  - https://terokarvinen.com/2018/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
+- Apache Foundation, 2025: Name-based Virtual Host Support
+  - https://httpd.apache.org/docs/2.4/vhosts/name-based.html
+- Karvinen Tero, 2012: Short HTML5 Page
+  - https://terokarvinen.com/2012/short-html5-page/
