@@ -75,7 +75,7 @@ Seuraavaksi painoin Review + Create, ja virtuaalikoneen luominen onnistui
 
 ![image](https://github.com/user-attachments/assets/81489ef6-aa88-44c6-8784-18d27327d959)
 
-Virtuaalikoneen resurssi-sivulta sai IP osoitteen kopioitua, jonka jälkeen kokeilin yhdistää siihen omalta koneelta. Ajattelin ensin yhdistää roottina kuten esimerkeissä, mutta se näytti olevan valmiiksi lukittu. Yhdistäytyminen onnistui kuitenkin käyttäjänä:
+Virtuaalikoneen resurssi-sivulta sai IP osoitteen kopioitua, jonka jälkeen kokeilin yhdistää siihen omalta koneelta. Ajattelin ensin yhdistää roottina kuten esimerkeissä, mutta se näytti olevan valmiiksi lukittu. Autentikointi onnistui kuitenkin käyttäjänä:
 
 ![image](https://github.com/user-attachments/assets/d0bf9451-7140-4217-a540-b59a5eaaaaa7)
 
@@ -88,7 +88,7 @@ Seuraavaksi tein muutamat alkutoimet. Root käyttäjä olikin jo valmiiksi lukit
 
 ![image](https://github.com/user-attachments/assets/982724d0-9077-4ec0-93ef-89bc52c03e47)
 
-Tulosteessa "L" tarkoittaa että salasana on lukittu.
+- tulosteessa "L" tarkoittaa että root käyttäjän salasana on lukittu
 
 "leevi" käyttäjä kuului myös valmiiksi sudo ryhmään, joten jatkoin palomuurin asentamisella ja ohjelmien päivittämisellä. Ajoin seuraavat komennot:
 
@@ -112,11 +112,12 @@ Apachen asennus ja default sivun korvaaminen seuraavaksi. Apachen asennus, käyn
     $ echo "Hello World" | sudo tee /var/www/html/index.html
 
 - korvataan perussivun sisältö tekstillä "Hello World"
+
 Tämän jälkeen käynnistin Apachen uudestaan ja katsoin toimiiko ensin lokaalisti `curl` komennolla:
 
 ![image](https://github.com/user-attachments/assets/2337ef43-8120-4b16-8c0d-2b1dda21662d)
 
-Apache siis toimii, mutta tässä vaiheessa ilmeni pieni ongelma. En pystynyt yhdistämään serveriin selaimella toiselta koneelta koneen IP osoitteella, vaikka olin jo avannut tulimuurin reiät ja serveri pyöri. Pienen mietintätuokion jälkeen ongelma onneksi ratkesi. Azuren sivuilta piti käydä myös antamassa lupa ulkopuolisille yhdistää serveriin 80 portin kautta. 
+Apache siis toimii, mutta tässä vaiheessa ilmeni pieni ongelma. En pystynyt yhdistämään serveriin selaimella toiselta koneelta käyttäen serverin IP osoitetta, vaikka olin jo avannut tulimuurin reiät ja serveri pyöri. Pienen mietintätuokion jälkeen ongelma onneksi ratkesi. Azuren sivuilta piti käydä myös antamassa lupa ulkopuolisille yhdistää serveriin 80 portin kautta. 
 
 ![image](https://github.com/user-attachments/assets/97bf6ef2-fcd1-48b6-85b6-e07ca1084a78)
 
@@ -131,7 +132,6 @@ Tämän jälkeen kun Apachen käynnisti vielä kerran uudelleen, näkyi Hello Wo
 Tein vielä päätteeksi Name Based Virtual Hostin seuraten omia ohjeita viime läksyistä. Tuloksena html-sivu käyttäjän kotihakemistossa, jonka kautta voin muokata sivua. Lisäsin vähän sivun sisältöä.
 
 ![image](https://github.com/user-attachments/assets/da75fb7a-d9a1-43de-bc43-fa9347317ee9)
-
 
 ![image](https://github.com/user-attachments/assets/8f19441b-6399-4e49-aa55-22c377a785a3)
 
