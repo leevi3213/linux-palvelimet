@@ -135,6 +135,20 @@ Tein vielä päätteeksi Name Based Virtual Hostin seuraten omia ohjeita viime l
 
 ![image](https://github.com/user-attachments/assets/8f19441b-6399-4e49-aa55-22c377a785a3)
 
+## Työympäristö
+
+__Host:__
+- OS: Arch linux
+- CPU: Ryzen 7 5700X
+- GPU: RTX 3060 12GB
+- RAM: 32GB
+- Ethernet yhteys
+
+__Virtuaalikone, jolla tehtävät on tehty:__
+- Alusta: QEMU/KVM
+- OS: Debian 12
+- CPU: Ryzen 7 5700X (2 ydintä)
+- RAM: 4GB
 
 ## Lähteet
 
@@ -144,3 +158,5 @@ Tein vielä päätteeksi Name Based Virtual Hostin seuraten omia ohjeita viime l
   - https://terokarvinen.com/2017/first-steps-on-a-new-virtual-private-server-an-example-on-digitalocean/
 - Tero Karvinen, 2025: Maailma Kuulee, Vinkit
   - https://terokarvinen.com/linux-palvelimet/#h4-maailma-kuulee
+
+> Dokumenttia muokattu 9.2.2025 palautteen pohjalta lisäämällä työympäristön tiedot
