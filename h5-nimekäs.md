@@ -34,9 +34,9 @@ Dokumentaatiossa luki, että asetuksien vaihtamisen jälkeen voi kestää jonkin
 
 ![image](https://github.com/user-attachments/assets/87a0b206-661a-458f-8513-3ce978005637)
 
-## d) Lisää sivuja
+## c) Lisää sivuja
 
-Seuvaavaksi kävin lisäämässä pari sivua serverille. Koska Name Based Virtual hosting oli jo pystyssä, ei tarvinnut tehdä muuta kuin lisätä muutama html tiedosto käyttäjän kotihakemistoon. Sivut sai linkitettyä toisiinsa esim. `<nav>` elementin avulla.
+Seuvaavaksi kävin lisäämässä pari sivua serverille. Koska Name Based Virtual hosting oli jo pystyssä, ei tarvinnut tehdä muuta kuin lisätä muutama html tiedosto käyttäjän kotihakemistoon. Ensin täytyi tietenkin yhdistää serveriin SSH:lla, kuten aikaisemmissa tehtävissä. Tämän jälkeen loin kaksi html sivua lisää samaan hakemistoon, jossa käynnissä olevan serverin index.html oli. Sivut sai linkitettyä toisiinsa mm. `<nav>` html-elementin avulla.
 Sivujen rakenne:
 
 ![image](https://github.com/user-attachments/assets/e778ba72-541d-4508-8971-bc5709bf3b80)
@@ -54,8 +54,6 @@ Alidomainien lisäämistä varten suuntasin takaisin Namecheapin sivuille. Oman 
 ![image](https://github.com/user-attachments/assets/a5431848-e765-4f9c-9f12-c0c8b9fad1ad)
 
 ![image](https://github.com/user-attachments/assets/ea0a51ff-f626-4b42-8a74-89f6d874c76b)
-
-> En saanut super.leeviv.me domainia vielä näkymään, voi olla että domainin päivittäminen kestää.
 
 ## e) DNS-tietojen tutkiminen
 
