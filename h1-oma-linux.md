@@ -85,7 +85,8 @@ Saa vastaukseksi satunnaisen hassun tekstin tai viisauden. Pari esimerkkiä:
 ![image](https://github.com/user-attachments/assets/2514a16b-11b7-4654-a8ed-f01bcd2b1301)
 
 ## Lähteet
-
+- Karvinen Tero, 2025: Linux Palvelimet, h1 Oma Linux
+  - https://terokarvinen.com/linux-palvelimet/#h1-oma-linux
 - Karvinen Tero, 2006: Raportin Kirjoittaminen
   - https://terokarvinen.com/2006/raportin-kirjoittaminen-4/
 - Karvinen Tero, 2021: Install Debian on VirtualBox
