@@ -138,7 +138,8 @@ Komennon lshw tuloste näyttää tietoa virtuaalikoneen spekseistä. Tulosteesta
 Laitteet /dev/vda 1-3 viittaavat virtuaalisen tallennustilan eri osioihin. Enp1s0 viittaa ethernet yhteyteen. Tulosteesta näkyy myös, että virtualisointi alustana toimii QEMU.
 
 ## Lähteet
-
+- Karvinen Tero, 2025: Linux Palvelimet, h2 Komentaja Pingviini
+  - https://terokarvinen.com/linux-palvelimet/#h2-komentaja-pingviini
 - Karvinen Tero, 2020: Command Line Basics Revisited
   - https://terokarvinen.com/2020/command-line-basics-revisited
 - Alicia Sykes, 2023: CLI tools you won't be able to live without
