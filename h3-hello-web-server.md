@@ -129,6 +129,8 @@ Pelkkä curl pyytää sisällön.
 
 
 ### Lähteet:
+- Karvinen Tero, 2025: Linux Palvelimet, h3 Hello Web Server
+  - https://terokarvinen.com/linux-palvelimet/#h3-hello-web-server
 - Karvinen Tero, 2018: Name Based Virtual Hosts on Apache
   - https://terokarvinen.com/2018/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/
 - Apache Foundation, 2025: Name-based Virtual Host Support
