@@ -87,7 +87,8 @@ __Virtuaalikone, jolla tehtävät on tehty:__
 - RAM: 4GB
 
 ## Lähteet
-
+- Tero Karvinen, 2025: Linux Palvelimet, h5 Nimekäs
+  - https://terokarvinen.com/linux-palvelimet/#h5-nimekas
 - Namecheap: How to Connect a Domain to a Server or Hosting
   - https://www.namecheap.com/support/knowledgebase/article.aspx/9837/46/how-to-connect-a-domain-to-a-server-or-hosting/
 - Wikipedia: dig (command)
