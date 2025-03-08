@@ -113,15 +113,17 @@ __Virtuaalikone, jolla tehtävät on tehty:__
 - RAM: 4GB
 
 ## Lähteet
-- Let's Encrypt 2024: How It Works
+- Tero Karvinen, 2025: Linux Palvelimet, h6 Salataampa
+  - https://terokarvinen.com/linux-palvelimet/#h6-salataampa
+- Let's Encrypt, 2024: How It Works
   - https://letsencrypt.org/how-it-works/
-- Let's Encrypt 2024: Get Started
+- Let's Encrypt, 2024: Get Started
   - https://letsencrypt.org/getting-started/
 - Certbot Documentation: Instructions
   - https://certbot.eff.org/instructions?ws=apache&os=pip
-- Lange 2024: Lego: Obtain a Certificate
+- Lange, 2024: Lego: Obtain a Certificate
   - https://go-acme.github.io/lego/usage/cli/obtain-a-certificate/index.html#using-an-existing-running-web-server
-- The Apache Software Foundation 2025: Documentation: SSL/TLS Strong Encryption
+- The Apache Software Foundation, 2025: Documentation: SSL/TLS Strong Encryption
   - https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#configexample
 - Wikipedia: DNS Certification Authority Authorization
   - https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization
